@@ -1,0 +1,748 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+	max-width: 1652px;
+	margin: auto;
+}
+
+div.paper{
+	background-image: url(../img/back-body.jpg);
+}
+
+
+header{
+	height: 661px;
+	background-image: url(../img/back-header.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	
+}
+header div.menu{
+	height: 90px;
+	background: rgba(0, 0, 0, 0.6);
+}
+
+	header nav div a{
+	color: #fff;
+	font-size: 18px;
+	text-decoration: none;
+	margin-top: 0px;
+	font-weight: bold;
+	}
+
+	header nav div a:hover{
+	color: #39b9ef;
+	text-decoration: none;
+	cursor: pointer;
+	}
+
+header div.call-to h1{
+	margin-top: 10px;
+	margin-bottom: 0px;
+	text-align: center;
+	color: #fff;
+	font-size: 240px;
+	font-weight: bold;
+	text-decoration: underline;
+	font-family: 'Rajdhani', sans-serif;
+	height: 50%;
+	width: 100%;
+}
+
+header div.call-to p{
+	color: #fff;
+	font-size: 150px;
+	text-align: center;
+	margin-top: -50px;
+	font-family: 'Rajdhani', sans-serif;
+	height: 50%;
+	width: 100%;
+}
+
+/**************************************
+*************Обо мне*******************
+***************************************/
+
+section.about h2{
+	color: #242424;
+	font-size: 52px;
+	text-align: center;
+	margin-top: 0px;
+	padding-top: 70px;
+	border-bottom: 3px solid #e7e7e7;
+	padding-bottom: 10px;
+} 
+
+div.aboutme div img.other{
+	max-width: 20%;
+	display: block;
+	margin: 0 auto 50px;
+}
+
+section.about img.myphoto{
+max-width: 70%;
+margin: 0;
+display: block;
+margin-left: auto;
+margin-right: auto;
+border-radius: 15px 15px 15px 15px;
+}
+
+section.about div.aboutme div{
+	padding-top: 80px;
+}
+
+div.aboutme p{
+	max-width: 50%;
+	margin: 5px auto;
+}
+
+section.about p.FIO{
+text-decoration: underline;
+}
+
+section.about span{
+	font-weight: bold;
+}
+
+/**************************************
+**************MyWorks******************
+***************************************/
+
+/* КРАСИВО, НО НЕ УМЕЩАЮТСЯ 2 БЛОКА В ОДНОЙ ЛИНИИ ИЗ-ЗА доп наростов!!!
+section.myworks div.projects{
+	border: 3px outset #e7e7e7;
+    border-radius: 60px;
+    margin: 3px;
+}*/
+
+section.myworks h2{
+	color: #2ebaee;
+	font-size: 72px;
+}
+section.myworks h2 span{
+	color: #000;
+}
+section.myworks img{
+	display: block;
+	margin: 0 auto;
+	width: 234px;
+	height: 234px;
+	margin-top: 32px;
+}
+section.myworks div.name{
+	color: #242424;
+	font-size: 34px;
+	text-align: center;
+	margin-top: 30px;
+}
+section.myworks div.projects span{
+	display: block;
+	text-align: center;
+	font-size: 14px;
+	color:#878787;
+	margin-top: 15px;
+}
+section.myworks div.projects a{
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	background: #2ebaee;
+	height: 45px;
+	width: 150px;
+	border-radius: 24px;
+	font-size: 16px;
+	color: #fff;
+	line-height: 44px;
+	margin:30px auto;
+}
+section.myworks div.projects a:hover{
+	color: #2ebaee;
+	background: #fff;
+	border: 1px solid #2ebaee;
+	}
+
+/**************************************
+****************Litra******************
+***************************************/
+
+section.litra h1{
+	padding-left: 10px;
+}
+
+section.litra div.litradiv{
+	padding-bottom: 15px;
+}
+
+section.litra ul{
+	margin-bottom: 0px;
+}
+
+section.litra li span{
+	color: #2ebaee;
+}
+
+section.litra a{
+	color: #000;
+	text-decoration: none;
+}
+
+section.litra a:hover{
+	background: #fff;
+}
+/**************************************
+**************Class-footer*************
+***************************************/
+section.footer{
+	background-image: url(../img/arms.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 724px;
+	background-size: cover;
+
+}
+section.footer div.contact{
+	color: #fff;
+	font-size: 72px;
+	font-weight: bold;
+	margin: 115px auto;
+}
+section.footer p{
+	color: #878787;
+	font-size: 32px;
+	margin: 24px 0 0 0;
+}
+section.footer p span{
+	color: #2ebaee;
+}
+section.footer ul{
+	list-style-type: none;
+	margin-top: 70px;
+	padding: 0 0 0 120px;
+}
+section.footer ul li{
+	display: inline-block;
+	width: 55px;
+	height: 55px;
+	border-radius: 27px;
+	margin-right: 37px;
+}
+section.footer ul li.vk{
+	background: #55acee;
+	padding: 20px 12px;
+}
+section.footer ul li.inst{
+	background: #3b5998;
+	padding: 18px 16.5px;
+}
+section.footer ul li:hover{
+	background: rgba(130, 130, 130, 0.6);
+	cursor: pointer;
+}
+section.footer div.f-right img{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 115px;
+    max-width: 70%;
+}
+
+/*********************************
+************FOOTER****************
+**********************************/
+
+footer{
+	height: 135px;
+	background: #000;
+}
+
+footer p{
+		text-align: right;
+		}
+
+footer p, footer ul{
+	list-style-type: none;
+	margin-top: 56px;
+	padding: 0;
+	color: #fff;
+}
+footer ul li{
+	display: inline-block;
+	margin-right: 20px;
+}
+footer ul li a{
+	color: #fff;
+	font-size: 14px;
+	text-decoration: none;
+	font-weight: bold;
+}
+footer ul li a:hover{
+	text-decoration: underline;
+}
+/**************************************
+************Адаптивность***************
+***************************************/
+@media (min-width: 280px) and (max-width: 366.9px){
+	
+	header{
+		max-height: 220px;
+		background-size: cover;
+	}
+
+	header div.call-to h1{
+		width: 100%;
+		margin: 30px auto 0;
+		text-align: center;
+		font-size: 50px;	
+	}
+
+	header div.call-to p{
+		width: 100%;
+		margin: -7px auto;
+		text-align: center;
+		font-size: 30px;
+	}
+
+	section.about h2{
+		padding-top: 5px;
+	}
+
+	header div.menu{
+		height: 50px;
+	}
+
+	header nav div a{
+		font-size: 12px;
+	}
+
+	section.about div.aboutme div{
+		padding-top: 0px;
+		font-size: 13px;		
+	}
+
+	section.about h2{
+		font-size: 30px;
+	}
+
+	div.aboutme div img.other{
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
+	section.myworks h2{
+		font-size: 40px;
+		margin-bottom: 0px;
+		text-align: center;
+	}
+
+	section.footer p{
+		font-size: 25px;
+		text-align: center;
+	}
+
+	section.footer div.contact{
+		margin: 40px auto;
+    	text-align: center;
+	}
+
+	section.footer div.f-right img{
+		display: none;
+	}
+
+	section.footer{
+		height: auto;
+	}	
+	section.footer ul {
+	    list-style-type: none;
+	    padding: 20px;
+	    margin: 0 0 0 22%;
+	}
+	footer ul li {
+	    display: inline-block;
+	    margin-right: 12px;
+	}
+	footer p, footer ul {
+	    list-style-type: none;
+	    margin-top: 20px;
+	    padding: 0 10px;
+	    color: #fff;
+	    text-align: center;
+	}
+	footer ul li a{
+		font-size: 12px;
+	}
+	footer{
+		max-height: 110px;
+	}	
+
+	div.aboutme p{
+		max-width: 90%;
+	}
+	section.myworks h2{
+		font-size: 30px;
+	}
+	section.footer div.contact{
+		margin: 10px auto;
+		font-size: 15px;
+	}
+	section.footer p{
+		font-size: 15px;
+    	text-align: center;
+	}
+	section.footer div.contact{
+		margin: 40px auto;
+    	text-align: center;
+	}
+
+	section.footer div.f-right img{
+		display: none;
+	}
+
+	section.footer{
+		height: auto;
+	}	
+	section.footer ul {
+	    list-style-type: none;
+	    padding: 20px;
+	    margin: 0 0 0 0%;
+	    text-align: center;
+	}
+	section.footer ul li.vk{		
+		margin-left: 23px;
+		margin-right: 23px;
+	}
+	section.footer ul li.inst{
+		
+		margin-left: 23px;
+		margin-right: 23px;
+		text-align: right;
+	}
+	footer ul li {
+	    display: inline-block;
+	    margin-right: 12px;
+	}
+	footer p, footer ul {
+	    list-style-type: none;
+	    margin-top: 5px;
+	    padding: 0 10px;
+	    color: #fff;
+	    text-align: center;
+	    font-size: 10px;
+	}		
+	footer ul li a{
+		font-size: 8px;
+	}
+	footer{
+		max-height: 60px;
+	}
+}
+
+@media (min-width: 367px) and (max-width: 575.98px) { 
+
+	header{
+		max-height: 270px;
+		background-size: cover;
+	}
+
+	header div.call-to h1{
+		width: 100%;
+		margin: 30px auto 0;
+		text-align: center;
+		font-size: 50px;	
+	}
+
+	header div.call-to p{
+		width: 100%;
+		margin: -7px auto;
+		text-align: center;
+		font-size: 30px;
+	}	
+
+	section.about h2{
+		padding-top: 20px;
+	}
+
+	section.about div.aboutme div{
+		padding-top: 0px;
+		font-size: 13px;		
+	}
+
+	section.about h2{
+		font-size: 30px;
+	}
+
+	div.aboutme div img.other{
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
+	section.myworks h2{
+		font-size: 40px;
+		margin-bottom: 0px;
+		text-align: center;
+	}
+
+	section.footer p{
+		font-size: 25px;
+		text-align: center;
+	}
+
+	section.footer div.contact{
+		margin: 40px auto;
+    	text-align: center;
+	}
+
+	section.footer div.f-right img{
+		display: none;
+	}
+
+	section.footer{
+		height: auto;
+	}	
+	section.footer ul {
+	    list-style-type: none;
+	    max-height: 10%;
+	    padding: 20px;
+	    margin: 0 0 0 22%;
+	}
+	footer ul li {
+	    display: inline-block;
+	    margin-right: 12px;
+	}
+	footer p, footer ul {
+	    list-style-type: none;
+	    margin-top: 5px;
+	    padding: 0 10px;
+	    color: #fff;
+	    text-align: center;
+	}
+
+	footer ul li a{
+		font-size: 12px;
+	}
+	footer{
+		max-height: 90px;
+	}
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+	header{
+		max-height: 420px;
+	}
+	section.about h2{
+		padding-top: 15px;
+	}
+	section.about div.aboutme div{
+		padding-top: 0px;		
+	}
+	div.aboutme div img.other{
+		margin-top: 20px;
+    	margin-bottom: 20px;
+	}
+	header div.call-to h1{
+		width: 100%;
+		margin: 0 auto;
+		text-align: center;
+		font-size: 150px;
+	}
+
+	header div.call-to p{
+		width: 100%;
+		margin:0 auto;
+		text-align: center;
+		font-size: 100px;
+	}
+	section.myworks h2{
+		text-align: center;
+	}
+	section.footer div.contact {
+	    color: #fff;
+	    font-size: 48px;
+	    font-weight: bold;
+	    margin-top: 35px;
+	    margin-bottom: 0;
+	    text-align: center;
+	}
+	section.footer p {
+	    color: #878787;	    
+	    margin: 14px auto;
+	    text-align: center;
+	}
+	section.footer ul {
+	    list-style-type: none;
+	    padding: 20px;
+	    margin: 0 0 0 30%;
+	}
+	section.footer div.f-right img{
+		display: none;
+	}
+	section.footer{	    
+	    height: 350px;
+	}
+	footer ul li {
+	    display: inline-block;
+	    margin-right: 12px;
+	}
+	footer p, footer ul {
+	    list-style-type: none;
+	    margin-top: 20px;
+	    padding: 0 10px;
+	    color: #fff;
+	    text-align: center;
+	}
+	
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+	header div.call-to h1{
+		width: 100%;
+		margin:0 auto;
+		text-align: center;		
+	}
+	header div.call-to p{
+		width: 100%;
+		margin:0 auto;
+		text-align: center;		
+	}
+	body{
+		margin: 0 -15px;
+	}
+	header{
+		height: 560px;
+	}		
+	div.aboutme p{
+		max-width: 90%;
+	}	
+	section.myworks h2 {
+	    font-size: 48px;
+	    text-align: center;
+	}
+	section.myworks img {
+	    display: block;
+	    margin: 0 auto;
+	    width: 200px;
+	    height: 200px;
+	    margin-top: 32px;
+	}
+	section.myworks {
+	    height: 1050px;
+	}
+	section.footer div.contact {
+	    color: #fff;
+	    font-size: 48px;
+	    font-weight: bold;
+	    margin-top: 35px;
+	    margin-bottom: 0;
+	    text-align: center;
+	}
+	section.footer p {
+	    color: #878787;
+	    font-size: 24px;
+	    margin: 14px auto;
+	    text-align: center;
+	}
+	section.footer p.adress {
+	    font-size: 16px;
+	    color: #878787;
+	    margin-top: 20px;
+	    text-align: center;
+	}
+	section.footer ul {
+	    list-style-type: none;
+	    padding: 20px;
+	    margin: 0 0 0 37%;
+	}
+	section.footer ul li {
+	    display: inline-block;
+	    width: 55px;
+	    height: 55px;
+	    border-radius: 27px;
+	}
+	section.footer{
+	    background-position: center;
+	    background-repeat: no-repeat;
+	    height: 300px;
+	}
+	section.footer div.f-right img{
+		display: none;
+	}
+	footer ul li {
+	    display: inline-block;
+	    margin-right: 12px;
+	}
+	footer p, footer ul {
+	    list-style-type: none;
+	    margin-top: 20px;
+	    padding: 0 10px;
+	    color: #fff;
+	    text-align: center;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	
+	header div.call-to h1{
+		width: 90%
+		margin:0 auto;
+		text-align: center;
+	}
+	section.myworks h2{
+		text-align: center;
+		font-size: 48px;
+	}
+	section.myworks img {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    margin-top: 32px;
+	}
+	section.myworks div.name{
+		font-size: 24px;
+	}
+	section.myworks{
+		height: auto;
+	}
+	section.footer{
+		height: auto;
+	}
+	section.footer div.contact{
+		font-size: 36px;
+	}
+	section.footer p.adress{
+		font-size: 14px;
+	}
+	section.footer p{
+		font-size: 24px;
+	}
+	section.footer ul li{
+		margin-right: 10px;
+	}	
+	footer p{
+		text-align: right;
+	}
+}
+
+@media (min-width: 1200px){
+	header div.call-to h1{
+		width: 100%;
+		margin:0 auto;
+		text-align: center;
+		
+	}
+	header div.call-to p{
+		width: 100%;
+		margin:0 auto;
+		text-align: center;
+		
+	}	
+	section.myworks h2{
+		text-align: center;
+	}
+	section.about div.notebookcenter{
+		margin: auto;
+	}
+}
+
