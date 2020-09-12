@@ -105,8 +105,10 @@ section.about span{
 	font-weight: bold;
 }
 
+/* Cтарый блок "Мои работы"
+
 /**************************************
-**************MyWorks******************
+**************MyWorks(старый)**********
 ***************************************/
 
 /* КРАСИВО, НО НЕ УМЕЩАЮТСЯ 2 БЛОКА В ОДНОЙ ЛИНИИ ИЗ-ЗА доп наростов!!!
@@ -115,7 +117,7 @@ section.myworks div.projects{
     border-radius: 60px;
     margin: 3px;
 }*/
-
+/*
 section.myworks h2{
 	color: #2ebaee;
 	font-size: 72px;
@@ -162,12 +164,53 @@ section.myworks div.projects a:hover{
 	border: 1px solid #2ebaee;
 	}
 
+*/
+
+/**************************************
+**************MyWorks(новый)**********
+***************************************/
+
+section.myworks h2{
+	color: #2ebaee;
+	font-size: 72px;
+}
+section.myworks h2 span{
+	color: #000;
+}
+section.myworks p{
+	margin: 0;
+}
+section.myworks ul{
+	list-style-type: none;	
+	color: #000;
+	text-align: center;
+}
+section.myworks ul li{
+	display: inline-block;
+	margin-right: 20px;
+	vertical-align: middle;	
+}
+section.myworks ul li a{
+	color: #000;
+	font-size: 14px;
+	text-decoration: none;
+	font-weight: bold;
+}
+section.myworks ul li a:hover{
+	text-decoration: none;
+}
+section.myworks img{
+	max-height: 50px;
+	display: block;
+	margin: auto;
+}
+
 /**************************************
 ****************Litra******************
 ***************************************/
 
-section.litra h1{
-	padding-left: 10px;
+section.litra h1{	
+	text-align: center;
 }
 
 section.litra div.litradiv{
@@ -335,6 +378,23 @@ footer ul li a:hover{
 		text-align: center;
 	}
 
+	section.myworks p{
+		font-size: 14px;		
+	}
+
+	section.myworks img{
+		max-height: 18px;
+	}
+
+	section.litra h1{
+		text-align: center;
+		font-size: 12px;
+	}
+
+	section.litra li{
+		font-size: 10px;
+	}
+
 	section.footer p{
 		font-size: 25px;
 		text-align: center;
@@ -482,6 +542,26 @@ footer ul li a:hover{
 		text-align: center;
 	}
 
+	section.myworks p{
+		font-size: 12px;		
+	}
+
+	section.myworks img{
+		max-height: 18px;
+	}
+
+	section.myworks ul{
+		padding: 0;
+	}
+
+	section.litra h1{
+		text-align: center;
+		font-size: 12px;
+	}
+	section.litra li{
+		font-size: 10px;
+	}
+
 	section.footer p{
 		font-size: 25px;
 		text-align: center;
@@ -547,7 +627,6 @@ footer ul li a:hover{
 		text-align: center;
 		font-size: 150px;
 	}
-
 	header div.call-to p{
 		width: 100%;
 		margin:0 auto;
@@ -555,8 +634,21 @@ footer ul li a:hover{
 		font-size: 100px;
 	}
 	section.myworks h2{
+		font-size: 48px;
 		text-align: center;
 	}
+	section.myworks p{
+		font-size: 17px;		
+	}
+	section.myworks img{
+		max-height: 30px;
+	}
+	section.litra h1{
+		text-align: center;
+	}
+	section.litra li{
+		font-size: 14px;
+	}	
 	section.footer div.contact {
 	    color: #fff;
 	    font-size: 48px;
@@ -618,17 +710,7 @@ footer ul li a:hover{
 	section.myworks h2 {
 	    font-size: 48px;
 	    text-align: center;
-	}
-	section.myworks img {
-	    display: block;
-	    margin: 0 auto;
-	    width: 200px;
-	    height: 200px;
-	    margin-top: 32px;
-	}
-	section.myworks {
-	    height: 1050px;
-	}
+	}	
 	section.footer div.contact {
 	    color: #fff;
 	    font-size: 48px;
@@ -691,14 +773,7 @@ footer ul li a:hover{
 	section.myworks h2{
 		text-align: center;
 		font-size: 48px;
-	}
-	section.myworks img {
-    display: block;
-    margin: 0 auto;
-    width: 200px;
-    height: 200px;
-    margin-top: 32px;
-	}
+	}	
 	section.myworks div.name{
 		font-size: 24px;
 	}
